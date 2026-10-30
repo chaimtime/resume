@@ -101,7 +101,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Leadership</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -122,7 +122,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Licenses &amp; Certifications</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -140,13 +140,13 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Awards</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <h4 class="resume-item-details">{{ recognition.organization }}{% if recognition.year %} &bull; {{ recognition.year }}{% endif %}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
@@ -160,7 +160,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Selected Talks</h2>
         </header>
 
         {% for association in site.data.associations %}
@@ -231,10 +231,7 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
+      
 
     </div>
 

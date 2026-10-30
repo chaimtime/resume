@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Haim Cohen, Ed.D. — Résumé"
+description: "Résumé of Haim Cohen, computer science educator."
 
 # Build settings
 markdown: kramdown
@@ -10,26 +10,26 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Haim Cohen, Ed.D."
+resume_title:                   "Computer Science &amp; Mathematics Educator"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "cohenh@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       ""
+resume_contact_address:         "Highland Park, NJ"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Highland Park, NJ • chaimtime.com • cohenh@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Seasoned computer science and mathematics teacher of over 20 years in the public-school classroom. Experience building course sequences, expanding programs, and making decisions based on student outcomes. Partners with administration on curriculum, placement, and program development. Doctoral research focused on course sequencing and how placement decisions affect student outcomes through a lens of pragmatism.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
@@ -38,34 +38,18 @@ resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     true
-resume_section_links:           true
+# resume_section_links:           true
 resume_section_associations:    true
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/username"
-  resume_twitter_url:           "http://twitter.com/username"
-  resume_dribbble_url:          "https://dribbble.com/username"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/username"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://github.com/jglovier/resume-template"
-  resume_medium_url:            "https://medium.com/@username"
-  # resume_bluesky_url:           "https://bsky.app/profile/username"
-  # resume_youtube_url:           "https://www.youtube.com/@username"
-  # resume_mastodon_url:          "https://mastodon.social/@username"
-  # resume_threads_url:           "https://www.threads.net/@username"
-  # resume_stackoverflow_url:     "https://stackoverflow.com/users/0000000/username"
-  # resume_wellfound_url:         "https://wellfound.com/u/username"
-  # resume_spotify_url:           "https://open.spotify.com/user/username"
-  # resume_soundcloud_url:        "https://soundcloud.com/username"
-  # resume_tiktok_url:            "https://www.tiktok.com/@username"
-  # resume_pinterest_url:         "https://www.pinterest.com/username/"
-  # resume_snapchat_url:          "https://www.snapchat.com/add/username"
-  # resume_whatsapp_url:          "https://wa.me/15555555555"
-  # resume_vk_url:                "https://vk.com/id000000000"
+  resume_github_url:            "https://github.com/chaimtime"
+  resume_linkedin_url:          "https://www.linkedin.com/in/cohenh"
+  resume_mastodon_url:          "https://infosec.exchange/@chaimtime"
+  resume_website_url:           "https://chaimtime.com"
+
 resume_print_social_links:      true
 
 # Design settings
